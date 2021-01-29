@@ -3,6 +3,7 @@
 
 import hashlib
 import sys
+import datetime
 
 print('\033[93m'+"""
 #######################################
@@ -30,8 +31,9 @@ except FileNotFoundError:
     quit()
 
 def mainMd5():
+    start = datetime.datetime.now()
     count =0
-
+    
     with open(wlist, "r", encoding="latin-1") as f:
         print(f"In total\033[91m\033[1m",f.read().count("\n"),"\033[0mtrying will be done.")
         print(25*"*")
@@ -42,9 +44,11 @@ def mainMd5():
         sys.stdout.write("Trying: "+str(count)+"\r")
         sys.stdout.flush()
         count+=1
-
+        finish = datetime.datetime.now()
+    
         if d == p_hash:
             print(f"[Pass Line:{count}] Password Found:{p_hash}:\033[32m{w}\x1b[0m")
+            print(25*"*"+"\nIt took "+ str(finish-start).split(".")[0] + " seconds in total.")
             break
     else:
         print("\033[91m\033[1mPassword not found.\x1b[0m")

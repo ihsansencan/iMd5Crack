@@ -20,5 +20,7 @@ In total 14344392 trying will be done.
 *************************
 [Pass Line:279594] Password Found:2258e00cc78b27950caf9474ea9bec8c:ankara06
 
+*************************
+It took 0:00:03 seconds in total.
 root@ihsan:~/Masaüstü# 
 ```
