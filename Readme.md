@@ -4,7 +4,7 @@
 Simple but effective, open to improvement..
 
 ```bash
-root@ihsan:~/Masaüstü# python3 iMd5Crack.py
+root@ihsan:~/Desktop# python3 iMd5Crack.py
 
 #######################################
 #               iMd5Crack             #
@@ -22,5 +22,5 @@ In total 14344392 trying will be done.
 
 *************************
 It took 0:00:03 seconds in total.
-root@ihsan:~/Masaüstü# 
+root@ihsan:~/Desktop# 
 ```
