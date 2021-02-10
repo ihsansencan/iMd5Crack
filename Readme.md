@@ -1,5 +1,4 @@
 # # iMd5Crack
-* * *
 
 Simple but effective, open to improvement..
 
